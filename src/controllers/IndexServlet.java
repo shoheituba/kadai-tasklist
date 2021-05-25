@@ -53,7 +53,7 @@ public class IndexServlet extends HttpServlet {
 
          request.setAttribute("tasks", tasks);
          request.setAttribute("tasks_count", tasks_count);     // 全件数
-         request.setAttribute("page", page);                         // ページ数
+         request.setAttribute("page", page);                   // ページ数
 
             // フラッシュメッセージがセッションスコープにセットされていたら
             if(request.getSession().getAttribute("flush") != null) {
