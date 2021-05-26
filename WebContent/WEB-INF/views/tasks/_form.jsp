@@ -6,14 +6,8 @@
         <c:forEach var="error" items="${errors}">
             ・<c:out value="${error}" /><br />
         </c:forEach>
-
     </div>
 </c:if>
-<label for="title">タイトル</label>
-<label>タイトル<br />
-<input type="text" name="title" value="${task.title}" />
-</label>
-<br /><br />
 <label>タスク<br />
 <input type="text"  name="content" value="${task.content}"/>
 </label>
